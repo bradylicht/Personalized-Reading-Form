@@ -1,7 +1,3 @@
-// navigation bar buttons
-
-
-
 // defining all the different objects and variables
 let comprehension = {
     on: false,
