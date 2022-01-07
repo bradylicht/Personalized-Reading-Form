@@ -259,7 +259,7 @@ function write () {
         comprehension.comp = 0;
     }
     else {
-        ccs1.textContent = ''
+        cc1.textContent = ''
     };
     if (comprehension.person > 0) {
         cp1.textContent = `Do the following ${comprehension.person} time(s): read a book with a lexile score between ${lexilerange} for ${pp30m} pages, a short story, or an article and have a discussion with ${teachername} over what you read. Submit this by listing that "${teachername} & I discussed..."`;
