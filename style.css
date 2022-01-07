@@ -1,9 +1,9 @@
-.poster {
-    width: 100%;
-    padding-bottom: 0%;
-    margin-bottom: 0%;
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+
+/* nav bar stuff start*/
 a {
     text-decoration: none;
 }
@@ -40,43 +40,64 @@ a {
         border-left: 1px solid black;
         text-align: left;
     }
-    /* .box {
-        width: 50%;
-        float: left; */
-    /* } */
 }
-/* 
-@media screen and (min-width: 1250px) {
-    .nav ul {
-        text-align: right;
-    }
 
-    .nav ul li {
-        display: inline-block;
-        border-bottom: 0px;
-        border-left: 1px solid black;
-        text-align: left;
-    }
-    .box {
-        width: 25%;
-        float: left;
-    }
-} */
+.nav ul li:hover {
+    background-color:black;
+}
+/* nav bar stuff end */
+
+
 
 body {
     margin: 0px;
 }
 
-/* input {
-    display: block;
-} */
+p {
+    margin: 0px;
+    padding-bottom: 5px;
+}
 
-.nav ul li:hover {
-    background-color:black;
+h1 {
+    /* margin-bottom: 5px; */
+    font-size: 25px;
+}
+
+h2 {
+    margin-bottom: 0px;
+    font-size: 20px;
 }
 
 .box {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.poster {
+    display: block;
+    width: 90%;
+    /* padding-bottom: 0%;
+    margin-bottom: 0%; */
     padding: 5px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.ex {
+    background-color: lightgoldenrodyellow;
+    margin: 10px;
+}
+
+/* .ex:hover {
+    background-color: lightsalmon;
+} */
+
+#plantitle {
+    padding-left: 10px;
+}
+
+#welcomearea {
+    padding: 10px;
 }
 
 #buildarea {
@@ -103,36 +124,17 @@ body {
     margin-bottom: 10;
 }
 
-.ex {
-    background-color: lightgoldenrodyellow;
-    margin: 10px;
-}
-
-.ex:hover {
-    background-color: lightsalmon;
-}
-
-p {
-    margin: 0px;
-    padding-bottom: 5px;
-}
-
-h1 {
-    margin-bottom: 0px;
-    font-size: 20px;
-}
-
 #sswarning {
-    color: red
+    color: red;
 }
 
 #credits {
-    /* position: fixed; */
     bottom: 0;
     background-color: #4C4E52;
     width: 100%;
     color: white;
     padding-top: 12px;
     padding-bottom: 12px;
+    padding-left: 10px;
 }
 
