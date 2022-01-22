@@ -377,11 +377,11 @@ runbutton.onclick = function run () {
     listen ();
     if (comprehension.on == false && vocabulary.on == false && fluency.on == false && backgroundknowledge.on == false && enjoyment.on == false) {
         console.log("no muscle")
-        alert ("select at least one muscle");
+        alert("select at least one muscle");
     }
     else if (user.bookon == false && user.compon == false && user.personon == false) {
         console.log("no learning style")
-        alert ("select at least one learning style");
+        alert("select at least one learning style");
     }
     else {
         compute ();
